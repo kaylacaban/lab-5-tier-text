@@ -1,0 +1,4 @@
+load("/Users/kaylacaban/Desktop/lab-5-tier-text/Project/Data/AnalysisData/ep3_clean.rds")
+readRDS("/Users/kaylacaban/Desktop/lab-5-tier-text/Project/Data/AnalysisData/ep3_clean.rds")
+load("/Users/kaylacaban/Desktop/lab-5-tier-text/Project/Data/AnalysisData/ep3_nostop.rds")
+load("/Users/kaylacaban/Desktop/lab-5-tier-text/Project/Data/AnalysisData/ep3_clean.rds")

@@ -1,0 +1,23 @@
+
+DATA DESCRIPTION:
+Screenplay scraped from IMSDb in  July 2025 using rvest. Saved as raw .txt in InputData folder.
+
+DATA CLEANING:
+Used 02_tokenise_analysis.R to split into dialogue and speaker lines. Removed stop words using tidytext and saved intermediate files to AnalysisData.
+
+ANALYSIS:
+- Identified top 5 TF-IDF terms per speaker
+- Plotted frequency of “sith lord” bigram throughout script
+
+OUTPUT FILES:
+- Heatmap of TF-IDF: tfidf_heatmap.png
+- Bigram timeline chart: top_clean_bigrams.png
+
+SCRIPT ORDER:
+1. 01_scrape_imsdb.R
+2. 02_tokenise_analysis.R
+3. 03_analysis.R
+
+--- R Session Info ---
+[output of sessionInfo()]
+
